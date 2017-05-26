@@ -1,6 +1,4 @@
 ﻿using Scarlet.Core.Entities;
-using Scarlet.Entities;
-using System;
 using System.Linq;
 using System.Text;
 
@@ -23,7 +21,7 @@ namespace Scarlet.Core.EntityProcesses
 
                 if (hasMiddleName)
                 {
-                    var middleNameChunks = Person.MiddleName.Trim().Split(' ');
+                    string[] middleNameChunks = SplitMiddleName(Person.MiddleName);
 
                     if (middleNameChunks.Any())
                     {
@@ -31,32 +29,32 @@ namespace Scarlet.Core.EntityProcesses
 
                         foreach (var chunk in middleNameChunks)
                         {
-                            if (chunk.Any())
-                            {
-                                var first = chunk[0];
-
-                                if (char.IsLetter(first))
-                                {
-                                    builder.Append(first);
-                                }
-                            }
+                            ProcessFirstChar(builder, chunk);
                         }
 
                         return builder.ToString();
                     }
-                    else
-                    {
-                        return null;
-                    }
-                }
-                else
-                {
-                    return null;
                 }
             }
-            else
+
+            return null;
+        }
+
+        private static string[] SplitMiddleName(string middleName)
+        {
+            return middleName?.Trim().Split(' ');
+        }
+
+        private static void ProcessFirstChar(StringBuilder builder, string chunk)
+        {
+            if (chunk.Any())
             {
-                return null;
+                var first = chunk[0];
+
+                if (char.IsLetter(first))
+                {
+                    builder.Append(first);
+                }
             }
         }
     }
