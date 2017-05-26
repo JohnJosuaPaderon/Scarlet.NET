@@ -1,12 +1,9 @@
 ﻿using Scarlet.Core.Entities;
-using Scarlet.Entities;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Scarlet.Core.EntityProcesses
 {
-    public sealed class ConstructPersonInformalFullName : IEntityProcess<string>
+    public sealed class ConstructPersonInformalFullName : IConstructPersonInformalFullName
     {
         public Person Person { get; set; }
 
