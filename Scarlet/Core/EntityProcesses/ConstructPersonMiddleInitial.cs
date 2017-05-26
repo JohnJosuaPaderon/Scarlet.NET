@@ -6,14 +6,9 @@ using System.Text;
 
 namespace Scarlet.Core.EntityProcesses
 {
-    public sealed class ConstructPersonMiddleInitial : IEntityProcess<string>
+    public sealed class ConstructPersonMiddleInitial : IConstructPersonMiddleInitial
     {
-        public ConstructPersonMiddleInitial(Person person)
-        {
-            Person = person ?? throw new ArgumentNullException(nameof(person));
-        }
-
-        private Person Person;
+        public Person Person { get; set; }
 
         public void Dispose()
         {
@@ -22,30 +17,37 @@ namespace Scarlet.Core.EntityProcesses
 
         public string Execute()
         {
-            var hasMiddleName = !string.IsNullOrWhiteSpace(Person.MiddleName);
-
-            if (hasMiddleName)
+            if (Person != null)
             {
-                var middleNameChunks = Person.MiddleName.Trim().Split(' ');
+                var hasMiddleName = !string.IsNullOrWhiteSpace(Person.MiddleName);
 
-                if (middleNameChunks.Any())
+                if (hasMiddleName)
                 {
-                    var builder = new StringBuilder();
+                    var middleNameChunks = Person.MiddleName.Trim().Split(' ');
 
-                    foreach (var chunk in middleNameChunks)
+                    if (middleNameChunks.Any())
                     {
-                        if (chunk.Any())
-                        {
-                            var first = chunk[0];
+                        var builder = new StringBuilder();
 
-                            if (char.IsLetter(first))
+                        foreach (var chunk in middleNameChunks)
+                        {
+                            if (chunk.Any())
                             {
-                                builder.Append(first);
+                                var first = chunk[0];
+
+                                if (char.IsLetter(first))
+                                {
+                                    builder.Append(first);
+                                }
                             }
                         }
-                    }
 
-                    return builder.ToString();
+                        return builder.ToString();
+                    }
+                    else
+                    {
+                        return null;
+                    }
                 }
                 else
                 {
