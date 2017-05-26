@@ -42,7 +42,7 @@ namespace Scarlet.Core.EntityProcesses
 
         private static string[] SplitMiddleName(string middleName)
         {
-            return middleName?.Trim().Split(' ');
+            return middleName?.Trim().Split(Configuration.PersonMiddleNameSeparator);
         }
 
         private static void ProcessFirstChar(StringBuilder builder, string chunk)

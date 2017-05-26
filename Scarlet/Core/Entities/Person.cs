@@ -1,9 +1,11 @@
 ﻿using Scarlet.Core.EntityManagers;
 using Scarlet.Entities;
 using System;
+using System.Runtime.Serialization;
 
 namespace Scarlet.Core.Entities
 {
+    [DataContract]
     public class Person : Entity<ulong>
     {
         public static IPersonManager Manager { get; set; }
@@ -20,6 +22,7 @@ namespace Scarlet.Core.Entities
         private bool InformalFullNameRefreshRequired;
         private bool MiddleInitialRefreshRequired;
 
+        [DataMember]
         public string FirstName
         {
             get { return _FirstName; }
@@ -33,6 +36,8 @@ namespace Scarlet.Core.Entities
                 }
             }
         }
+
+        [DataMember]
         public string MiddleName
         {
             get { return _MiddleName; }
@@ -47,6 +52,8 @@ namespace Scarlet.Core.Entities
                 }
             }
         }
+
+        [DataMember]
         public string LastName
         {
             get { return _LastName; }
@@ -60,6 +67,8 @@ namespace Scarlet.Core.Entities
                 }
             }
         }
+
+        [DataMember]
         public string NameSuffix
         {
             get { return _NameSuffix; }
@@ -73,6 +82,8 @@ namespace Scarlet.Core.Entities
                 }
             }
         }
+
+        [DataMember]
         public string FullName
         {
             get
@@ -86,6 +97,8 @@ namespace Scarlet.Core.Entities
                 return _FullName;
             }
         }
+
+        [DataMember]
         public string InformalFullName
         {
             get
@@ -99,6 +112,8 @@ namespace Scarlet.Core.Entities
                 return _InformalFullName;
             }
         }
+
+        [DataMember]
         public string MiddleInitial
         {
             get
@@ -112,8 +127,14 @@ namespace Scarlet.Core.Entities
                 return _MiddleInitial;
             }
         }
+
+        [DataMember]
         public Gender Gender { get; set; }
+
+        [DataMember]
         public DateTime? BirthDate { get; set; }
+
+        [DataMember]
         public bool Deceased { get; set; }
 
         public override string ToString()
