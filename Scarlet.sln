@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet", "Scarlet\Scarlet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Classic", "Scarlet.Classic\Scarlet.Classic.csproj", "{9E876EFB-AC39-40CB-89C5-516AFC0B6042}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Core.EntityManagementService", "Scarlet.Core.EntityManagementService\Scarlet.Core.EntityManagementService.csproj", "{CBB7C4AC-D334-410B-BB23-F20FBCE4F644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9E876EFB-AC39-40CB-89C5-516AFC0B6042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E876EFB-AC39-40CB-89C5-516AFC0B6042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E876EFB-AC39-40CB-89C5-516AFC0B6042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB7C4AC-D334-410B-BB23-F20FBCE4F644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB7C4AC-D334-410B-BB23-F20FBCE4F644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB7C4AC-D334-410B-BB23-F20FBCE4F644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB7C4AC-D334-410B-BB23-F20FBCE4F644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
