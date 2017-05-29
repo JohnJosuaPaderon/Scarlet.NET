@@ -69,6 +69,8 @@
     <Compile Include="DbValueConverter.Definitions.Single.cs" />
     <Compile Include="DbValueConverter.Definitions.String.cs" />
     <Compile Include="DbValueConverter.Definitions.UInt16.cs" />
+    <Compile Include="DbValueConverter.Definitions.UInt32.cs" />
+    <Compile Include="DbValueConverter.Definitions.UInt64.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
