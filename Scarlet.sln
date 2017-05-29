@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Services", "Scarlet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Npgsql", "Scarlet.Npgsql\Scarlet.Npgsql.csproj", "{0FCC457D-5E9C-477F-9325-480AD0759021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Core", "Scarlet.Core\Scarlet.Core.csproj", "{B722E58E-0A6F-4F44-9F78-A10EF3682CA5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{0FCC457D-5E9C-477F-9325-480AD0759021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FCC457D-5E9C-477F-9325-480AD0759021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FCC457D-5E9C-477F-9325-480AD0759021}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B722E58E-0A6F-4F44-9F78-A10EF3682CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B722E58E-0A6F-4F44-9F78-A10EF3682CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B722E58E-0A6F-4F44-9F78-A10EF3682CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B722E58E-0A6F-4F44-9F78-A10EF3682CA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
