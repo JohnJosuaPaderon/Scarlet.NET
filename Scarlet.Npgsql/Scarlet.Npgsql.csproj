@@ -55,6 +55,11 @@
     <Compile Include="Rdbms\NpgsqlConnectionEstablisher.cs" />
     <Compile Include="Rdbms\NpgsqlParameterCreator.cs" />
     <Compile Include="Rdbms\NpgsqlProcessHelper.cs" />
+    <Compile Include="Rdbms\NpgsqlProcessHelper.Definitions.ExecuteNonQuery.cs" />
+    <Compile Include="Rdbms\NpgsqlProcessHelper.Definitions.ExecuteNonQueryAsync.cs" />
+    <Compile Include="Rdbms\NpgsqlProcessHelper.Definitions.ExecuteReader.cs" />
+    <Compile Include="Rdbms\NpgsqlProcessHelper.Definitions.ExecuteReaderIEnumerable.cs" />
+    <Compile Include="Rdbms\NpgsqlProcessHelper.Definitions.ExecuteScalar.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Scarlet.Classic\Scarlet.Classic.csproj">
