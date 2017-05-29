@@ -1,8 +1,9 @@
 ﻿using Scarlet.Core.Entities;
+using Scarlet.Entities;
 
 namespace Scarlet.Core.EntityProcesses
 {
-    public interface IConstructPersonFullName
+    public interface IConstructPersonFullName : IEntityProcess<string>
     {
         Person Person { get; set; }
     }
