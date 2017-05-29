@@ -25,5 +25,14 @@ namespace Scarlet.Core.EntityManagementService
 
         [OperationContract]
         Task<Person> UpdatePersonAsync(Person person, CancellationToken cancellationToken);
+
+        [OperationContract]
+        Person DeletePerson(Person person);
+
+        [OperationContract]
+        Task<Person> DeletePersonAsync(Person person);
+
+        [OperationContract]
+        Task<Person> DeletePersonAsync(Person person, CancellationToken cancellationToken);
     }
 }
