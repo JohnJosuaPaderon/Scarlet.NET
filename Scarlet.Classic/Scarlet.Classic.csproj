@@ -61,6 +61,14 @@
     <Compile Include="DbValueConverter.Definitions.NullableInt32.cs" />
     <Compile Include="DbValueConverter.Definitions.NullableInt64.cs" />
     <Compile Include="DbValueConverter.Definitions.NullableSByte.cs" />
+    <Compile Include="DbValueConverter.Definitions.NullableSingle.cs" />
+    <Compile Include="DbValueConverter.Definitions.NullableUInt16.cs" />
+    <Compile Include="DbValueConverter.Definitions.NullableUInt32.cs" />
+    <Compile Include="DbValueConverter.Definitions.NullableUInt64.cs" />
+    <Compile Include="DbValueConverter.Definitions.SByte.cs" />
+    <Compile Include="DbValueConverter.Definitions.Single.cs" />
+    <Compile Include="DbValueConverter.Definitions.String.cs" />
+    <Compile Include="DbValueConverter.Definitions.UInt16.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
