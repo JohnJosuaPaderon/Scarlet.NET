@@ -62,9 +62,9 @@
     <Compile Include="Rdbms\NpgsqlProcessHelper.Definitions.ExecuteScalar.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Scarlet.Classic\Scarlet.Classic.csproj">
-      <Project>{9e876efb-ac39-40cb-89c5-516afc0b6042}</Project>
-      <Name>Scarlet.Classic</Name>
+    <ProjectReference Include="..\Scarlet.NetFramework\Scarlet.NetFramework.csproj">
+      <Project>{5a4c2a52-9b31-4d0e-b3ec-458b0ead9e7d}</Project>
+      <Name>Scarlet.NetFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\Scarlet\Scarlet.csproj">
       <Project>{A8F0E6B6-92A8-45EE-AD1D-2A7A1032AB77}</Project>
