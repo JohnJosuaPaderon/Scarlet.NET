@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetFramework", "Sca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetStandard", "Scarlet.NetStandard\Scarlet.NetStandard.csproj", "{37FE652E-36F1-4D2C-9EAD-26A972695643}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetCore", "Scarlet.NetCore\Scarlet.NetCore.csproj", "{CF579C02-E873-490B-A8C3-F5510E775AF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetStandard.NavotasCity", "Scarlet.NetStandard.NavotasCity\Scarlet.NetStandard.NavotasCity.csproj", "{71512E09-322C-4185-BD01-7A88E9CE5FC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{37FE652E-36F1-4D2C-9EAD-26A972695643}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37FE652E-36F1-4D2C-9EAD-26A972695643}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37FE652E-36F1-4D2C-9EAD-26A972695643}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF579C02-E873-490B-A8C3-F5510E775AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF579C02-E873-490B-A8C3-F5510E775AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF579C02-E873-490B-A8C3-F5510E775AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF579C02-E873-490B-A8C3-F5510E775AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71512E09-322C-4185-BD01-7A88E9CE5FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71512E09-322C-4185-BD01-7A88E9CE5FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71512E09-322C-4185-BD01-7A88E9CE5FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71512E09-322C-4185-BD01-7A88E9CE5FC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
