@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>Scarlet.NavotasCity</RootNamespace>
+    <Authors>John Josua R. Paderon</Authors>
+    <Company>Scarlet Development</Company>
+    <Copyright>Copyright © 2017 John Josua R. Paderon</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
 
 </Project>
