@@ -4,6 +4,10 @@
     <TargetFramework>netstandard1.6</TargetFramework>
     <RootNamespace>Scarlet</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>John Josua R. Paderon</Authors>
+    <Company>Scarlet Development</Company>
+    <Product>Scarlet.NetStandard</Product>
+    <Copyright>Copyright © 2017 John Josua R. Paderon</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
