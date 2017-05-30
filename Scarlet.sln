@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet", "Scarlet\Scarlet.csproj", "{A8F0E6B6-92A8-45EE-AD1D-2A7A1032AB77}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Services", "Scarlet.Services\Scarlet.Services.csproj", "{DBE18BB8-1035-4226-8950-E198643D6811}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Npgsql", "Scarlet.Npgsql\Scarlet.Npgsql.csproj", "{0FCC457D-5E9C-477F-9325-480AD0759021}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetFramework", "Scarlet.NetFramework\Scarlet.NetFramework.csproj", "{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetStandard", "Scarlet.NetStandard\Scarlet.NetStandard.csproj", "{37FE652E-36F1-4D2C-9EAD-26A972695643}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8F0E6B6-92A8-45EE-AD1D-2A7A1032AB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8F0E6B6-92A8-45EE-AD1D-2A7A1032AB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8F0E6B6-92A8-45EE-AD1D-2A7A1032AB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8F0E6B6-92A8-45EE-AD1D-2A7A1032AB77}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBE18BB8-1035-4226-8950-E198643D6811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DBE18BB8-1035-4226-8950-E198643D6811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE18BB8-1035-4226-8950-E198643D6811}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FE652E-36F1-4D2C-9EAD-26A972695643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FE652E-36F1-4D2C-9EAD-26A972695643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FE652E-36F1-4D2C-9EAD-26A972695643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FE652E-36F1-4D2C-9EAD-26A972695643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
