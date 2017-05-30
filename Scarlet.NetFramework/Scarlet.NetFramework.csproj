@@ -79,5 +79,11 @@
     <Compile Include="Rdbms\IDbParameterCreator.cs" />
     <Compile Include="Rdbms\IDbProcessHelper.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Scarlet.NetStandard\Scarlet.NetStandard.csproj">
+      <Project>{37fe652e-36f1-4d2c-9ead-26a972695643}</Project>
+      <Name>Scarlet.NetStandard</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
