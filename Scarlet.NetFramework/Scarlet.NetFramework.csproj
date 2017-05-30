@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Scarlet</RootNamespace>
     <AssemblyName>Scarlet.NetFramework</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -78,12 +78,6 @@
     <Compile Include="Rdbms\IDbConnectionEstablisher.cs" />
     <Compile Include="Rdbms\IDbParameterCreator.cs" />
     <Compile Include="Rdbms\IDbProcessHelper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Scarlet\Scarlet.csproj">
-      <Project>{a8f0e6b6-92a8-45ee-ad1d-2a7a1032ab77}</Project>
-      <Name>Scarlet</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
