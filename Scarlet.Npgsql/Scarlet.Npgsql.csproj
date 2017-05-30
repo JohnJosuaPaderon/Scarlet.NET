@@ -66,6 +66,10 @@
       <Project>{5a4c2a52-9b31-4d0e-b3ec-458b0ead9e7d}</Project>
       <Name>Scarlet.NetFramework</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Scarlet.NetStandard\Scarlet.NetStandard.csproj">
+      <Project>{37fe652e-36f1-4d2c-9ead-26a972695643}</Project>
+      <Name>Scarlet.NetStandard</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
