@@ -1,10 +1,17 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 namespace Scarlet.Core.Entities
 {
     [DataContract]
     public class IPv4Address
     {
+        static void Sample()
+        {
+            var ipv4Address = new IPv4Address();
+            string x = ipv4Address;
+        }
+
         [DataMember]
         public byte Class1 { get; set; }
 
@@ -25,6 +32,25 @@ namespace Scarlet.Core.Entities
         public static bool operator !=(IPv4Address left, IPv4Address right)
         {
             return !(left == right);
+        }
+
+        public static implicit operator string(IPv4Address arg)
+        {
+            if (arg == null) return null;
+
+            return $"{arg.Class1}.{arg.Class2}.{arg.Class3}.{arg.Class4}";
+        }
+
+        public static implicit operator IPv4Address(string arg)
+        {
+            if (string.IsNullOrWhiteSpace(arg)) return null;
+
+            var splitted = "";
+
+            return new IPv4Address()
+            {
+
+            };
         }
 
         public override bool Equals(object obj)
