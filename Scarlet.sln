@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.Npgsql", "Scarlet.Npgsql\Scarlet.Npgsql.csproj", "{0FCC457D-5E9C-477F-9325-480AD0759021}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetFramework", "Scarlet.NetFramework\Scarlet.NetFramework.csproj", "{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetStandard", "Scarlet.NetStandard\Scarlet.NetStandard.csproj", "{37FE652E-36F1-4D2C-9EAD-26A972695643}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetStandard.NavotasCity", "Scarlet.NetStandard.NavotasCity\Scarlet.NetStandard.NavotasCity.csproj", "{71512E09-322C-4185-BD01-7A88E9CE5FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scarlet.NetFramework.Npgsql", "Scarlet.NetFramework.Npgsql\Scarlet.NetFramework.Npgsql.csproj", "{4A8A5018-E8CC-437B-B004-45B92A6FB684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0FCC457D-5E9C-477F-9325-480AD0759021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FCC457D-5E9C-477F-9325-480AD0759021}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FCC457D-5E9C-477F-9325-480AD0759021}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FCC457D-5E9C-477F-9325-480AD0759021}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4C2A52-9B31-4D0E-B3EC-458B0EAD9E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{71512E09-322C-4185-BD01-7A88E9CE5FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71512E09-322C-4185-BD01-7A88E9CE5FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71512E09-322C-4185-BD01-7A88E9CE5FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8A5018-E8CC-437B-B004-45B92A6FB684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8A5018-E8CC-437B-B004-45B92A6FB684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8A5018-E8CC-437B-B004-45B92A6FB684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8A5018-E8CC-437B-B004-45B92A6FB684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
