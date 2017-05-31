@@ -3,10 +3,11 @@
 namespace Scarlet.Core.Entities
 {
     [Flags]
-    public enum Gender
+    public enum DeviceType
     {
         NotSet = 0,
-        Male = 1,
-        Female = 2
+        Mobile = 1,
+        Laptop = 2,
+        Desktop = 4
     }
 }
