@@ -16,7 +16,7 @@
 
         public override bool Equals(object obj)
         {
-            if (obj == null) return false;
+            if (obj is null) return false;
             if (ReferenceEquals(this, obj)) return true;
             if (GetType() != obj.GetType()) return false;
 
