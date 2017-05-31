@@ -1,14 +1,15 @@
-﻿using Scarlet.Core.Entities;
-using System;
-using System.Collections.Generic;
+﻿using Scarlet.Entities;
 using System.Runtime.Serialization;
-using System.Text;
 
 namespace Scarlet.Security.Entities
 {
     [DataContract]
-    public class User
+    public class User : Entity<ulong>
     {
+        [DataMember]
+        public ulong Id { get; set; }
 
+        [DataMember]
+        public bool Active { get; set; }
     }
 }
