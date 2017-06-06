@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Scarlet</id>
+    <version>1.0.0</version>
+    <authors>John Josua R. Paderon</authors>
+    <owners>Scarlet Development</owners>
+    <licenseUrl>https://github.com/JohnJosuaPaderon/Scarlet.NET/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/JohnJosuaPaderon/Scarlet.NET</projectUrl>
+    <iconUrl>https://github.com/JohnJosuaPaderon/Scarlet.NET/blob/master/scarlet_icon_256x256.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SAMPLE ONLY</description>
+    <releaseNotes>This is just a sample.</releaseNotes>
+    <copyright>Copyright (c) 2017 John Josua R. Paderon</copyright>
+    <tags>Scarlet SuperSystem</tags>
+    <dependencies>
+      <dependency id="Npgsql" version="3.2.2" />
+      <dependency id="System.Security.SecureString" version="4.3.0" />
+      <dependency id="System.Threading.Tasks.Extensions" version="4.3.0" />
+    </dependencies>
+  </metadata>
+  <files>
+     <file src="Scarlet.NetStandard\bin\Release\netstandard1.6\Scarlet.NetStandard.dll" target="lib\Scarlet.NetStandard.dll" />
+     <file src="Scarlet.NetCore\bin\Release\netcoreapp1.1\Scarlet.NetCore.dll" target="lib\Scarlet.NetCore.dll" />
+     <file src="Scarlet.NetFramework\bin\Release\Scarlet.NetFramework.dll" target="lib\Scarlet.NetFramework.dll" />
+  </files>
+</package>
